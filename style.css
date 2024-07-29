@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* Adding a gradient background */
+    color: #333;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2193b0;
+    margin-bottom: 24px;
+}
+
+input[type="number"], input[type="text"] {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2193b0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6dd5ed;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2193b0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #6dd5ed;
+}
+
+.flash-message {
+    color: red;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+button[type="submit"], button[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+    background-color: #2193b0;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #cccccc;
+    color: #333;
+}
+
+button[type="submit"]:hover {
+    background-color: #6dd5ed;
+}
+
+button[type="reset"]:hover {
+    background-color: #a0a0a0;
+}
+

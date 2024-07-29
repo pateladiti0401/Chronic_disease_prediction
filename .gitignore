@@ -1,0 +1,32 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore temporary files
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore archive files
+*.tar.gz
+*.zip
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore other specific files and directories
+Python-3.11.7/
+Python-3.11.7.tgz
+
+# Ignore pickle files
+*.pkl
+

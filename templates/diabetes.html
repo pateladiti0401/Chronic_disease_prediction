@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h1>Diabetes Prediction</h1>
+    <form action="/predict_diabetes" method="post">
+        Gender: <input type="text" name="gender"><br>
+        Age: <input type="text" name="age"><br>
+        Hypertension: <input type="text" name="hypertension"><br>
+        Heart Disease: <input type="text" name="heart_disease"><br>
+        Smoking History: <input type="text" name="smoking_history"><br>
+        BMI: <input type="text" name="bmi"><br>
+        HbA1c Level: <input type="text" name="HbA1c_level"><br>
+        Blood Glucose Level: <input type="text" name="blood_glucose_level"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <br>
+    {{ prediction_text }}
+</body>
+</html>

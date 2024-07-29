@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h1>Heart Disease Prediction</h1>
+    <form action="/predict_heart" method="post">
+        Age: <input type="text" name="age"><br>
+        Sex: <input type="text" name="sex"><br>
+        Resting BP: <input type="text" name="resting_bp"><br>
+        Cholesterol: <input type="text" name="cholesterol"><br>
+        Fasting BS: <input type="text" name="fasting_bs"><br>
+        Resting ECG: <input type="text" name="resting_ecg"><br>
+        Max HR: <input type="text" name="max_hr"><br>
+        Exercise Angina: <input type="text" name="exercise_angina"><br>
+        Oldpeak: <input type="text" name="oldpeak"><br>
+        ST Slope: <input type="text" name="st_slope"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <br>
+    {{ prediction_text }}
+</body>
+</html>

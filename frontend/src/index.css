@@ -1,0 +1,214 @@
+:root {
+  --primary-color: #13b9d8; /* Primary Color */
+  --secondary-color: #87cefa; /* Secondary Color */
+  --background-color: #f5f5f5; /* Background Color */
+  --text-color: #333; /* Text Color */
+  --hover-color: #7eb4ed; /* Color on Hover */
+  --error-color: red; /* Error Text Color */
+  --success-color: #6b9ae1; /* Non-diabetic condition */
+  --info-color: #d1ecf1; /* Info Background Color */
+  --info-text-color: #000a0a; /* Info Text Color */
+}
+
+/* Reset some default styles for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, var(--secondary-color) 10%, #0bb7cb 100%);
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background: rgba(255, 255, 255, 0.85);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: var(--hover-color);
+  color: #fff;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+form input[type='text'],
+form input[type='number'],
+form input[type='email'],
+form select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: var(--hover-color);
+}
+
+form p {
+  margin-top: 15px;
+  color: var(--primary-color);
+}
+
+.info-icon {
+  margin-left: 8px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.info-icon:hover {
+  color: var(--hover-color);
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  max-width: 200px; /* Limit the width of the label to prevent it from stretching too far */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  overflow: hidden; /* Hides the overflowed text */
+  text-overflow: ellipsis; /* Adds ellipsis for overflowed text */
+}
+.form-group label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  flex: 2;
+  margin-left: 10px;
+}
+
+.error {
+  color: var(--error-color);
+  font-size: 0.875em;
+  margin-top: 5px;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.radio-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 2px 6px;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s, border-color 0.3s;
+  text-align: center;
+}
+
+.radio-button input[type='radio'] {
+  display: none;
+}
+
+.radio-button.selected {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.prediction-output {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #6086c7;
+  color: #608aca;
+  border: 1px solid #6086c7;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.prediction-output.diabetic {
+  background-color: #6086c7;
+  color: #608aca;
+}
+
+.prediction-output.non-diabetic {
+  background-color: #98fb98;
+  color: var(--success-color);
+}
+
+.prediction-output.info {
+  background-color: var(--info-color);
+  color: var(--info-text-color);
+}
