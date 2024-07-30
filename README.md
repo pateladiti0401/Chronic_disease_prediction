@@ -1,4 +1,4 @@
-Dataset Links
+# Dataset Links
 
 Heart - https://www.kaggle.com/datasets/naveengowda16/logistic-regression-heart-disease-prediction
 
@@ -23,7 +23,9 @@ Diabetes - https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-data
 - python main.py
 - npm start
 
-Dashborad Screenshot
+
+## Screenshots
+Dashborad :
 ![image](https://github.com/user-attachments/assets/5c9e7179-60c1-4484-ae7c-0bc4dbc56aaf)
 
 ![image](https://github.com/user-attachments/assets/73740dad-2ae6-4b5e-9a07-835b35448576)
