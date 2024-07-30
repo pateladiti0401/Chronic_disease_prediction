@@ -1,3 +1,11 @@
+#Dataset Links
+
+Heart - https://www.kaggle.com/datasets/naveengowda16/logistic-regression-heart-disease-prediction
+
+Kidney - https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease
+
+Diabetes - https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+
 # Steps
 
 1) Download python pacakges
