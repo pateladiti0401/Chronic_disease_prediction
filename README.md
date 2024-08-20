@@ -43,9 +43,9 @@ To get started with the project, follow the instructions below:
 
 3. **run predict scripts to generate .pkl files:**
 
-   - python predict_diabetes.py
-   - python predict_heart.py
-   - python predict_kidney.py
+   - `python predict_diabetes.py`
+   - `python predict_heart.py`
+   - `python predict_kidney.py`
 
 4. **Set up the ReactJS frontend:**
 
