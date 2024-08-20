@@ -1,4 +1,3 @@
-
 # Chronic Disease Prediction Project
 
 ## Overview
@@ -34,7 +33,7 @@ To get started with the project, follow the instructions below:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Chronic-Disease-Prediction.git
+   git clone https://github.com/pateladiti0401/Chronic_disease_prediction.git
    ```
 
 2. **Set up the Python backend:**
