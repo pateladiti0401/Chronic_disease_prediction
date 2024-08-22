@@ -74,6 +74,5 @@ Dashborad :
 Lifesheild AI Platform:
 ![image](https://github.com/user-attachments/assets/6f6f701c-aca3-4131-ad42-4d29acd5bdc9)
 ![image](https://github.com/user-attachments/assets/897af3ab-69cd-4e00-a60b-02a24812fb75)
-![image](https://github.com/user-attachments/assets/f16519fc-66e4-4053-9dfb-7cf4def67d0c)
 
 
