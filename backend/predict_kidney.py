@@ -32,7 +32,7 @@ def preprocess_ckd_data(df):
     return X, y
 
 # Load CKD dataset
-ckd_file_path = 'chronic_kidney_disease_full.xlsx'
+ckd_file_path = '../datatsets/chronic_kidney_disease_full.xlsx'
 ckd_data = pd.read_excel(ckd_file_path)
 
 # Preprocess CKD dataset

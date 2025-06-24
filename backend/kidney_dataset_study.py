@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file_path = '/content/chronic_kidney_disease_full.xlsx'
+file_path = '../datasets/chronic_kidney_disease_full.xlsx'
 df = pd.read_excel(file_path)
 
 # Display the head of the dataset

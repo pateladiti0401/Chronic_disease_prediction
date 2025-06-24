@@ -54,7 +54,7 @@ def preprocess_data(file_path):
     return X, y
 
 # Preprocess dataset
-file_path = 'framingham_heart_disease.csv'
+file_path = '../datasets/framingham_heart_disease.csv'
 X, y = preprocess_data(file_path)
 
 # Split the data into training and testing sets

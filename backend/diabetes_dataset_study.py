@@ -5,7 +5,7 @@ import seaborn as sns
 
 
 # Load the dataset
-file_path = 'diabetes_prediction_dataset.csv'
+file_path = '../datasets/diabetes_prediction_dataset.csv'
 data = pd.read_csv(file_path)
 
 # Encode the 'gender' and 'smoking_history' columns

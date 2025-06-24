@@ -4,7 +4,7 @@ import seaborn as sns
 import pandas as pd
 
 # Load the dataset
-file_path = '/content/framingham_heart_disease.csv'
+file_path = '../datasets/framingham_heart_disease.csv'
 df_heart = pd.read_csv(file_path)
 
 missing_values_heart = df_heart.isnull().sum()

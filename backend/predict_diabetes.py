@@ -23,7 +23,7 @@ def preprocess_diabetes_data(file_path):
     return X, y
 
 # Preprocess diabetes dataset
-diabetes_file_path = 'diabetes_prediction_dataset.csv'
+diabetes_file_path = '../datasets/diabetes_prediction_dataset.csv'
 X_diabetes, y_diabetes = preprocess_diabetes_data(diabetes_file_path)
 
 # Split the data into training and testing sets
