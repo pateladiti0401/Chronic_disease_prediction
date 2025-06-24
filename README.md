@@ -79,9 +79,24 @@ Explore prediction results and visual trends
 
 ## 🖼️ Screenshots
 
-Dashboard Example	Lifeshield AI Interface
 
-(Add your screenshots to a screenshots/ folder and update the file paths)
+### 🔹 Power BI Dashboards
+
+#### 🩸 Diabetes Dashboard
+![Diabetes Dashboard](./screenshots/dashboard-diabetes.png)
+
+#### 🫀 Heart Disease Dashboard
+![Heart Dashboard](./screenshots/dashboard-heart.png)
+
+---
+
+### 🔹 Lifeshield AI Web Interface
+
+#### 🫁 Heart Disease Form
+![Lifeshield Heart Form](./screenshots/lifeshield-heart-form.png)
+
+#### 🧪 Kidney Disease Form
+![Lifeshield Kidney Form](./screenshots/lifeshield-kidney-form.png)
 
 ---
 
@@ -95,16 +110,3 @@ Dashboard Example	Lifeshield AI Interface
 
 Aditi Patel
 📧 pateladiti542@gmail.com
-
-
-## Screenshots
-Dashborad :
-![image](https://github.com/user-attachments/assets/5c9e7179-60c1-4484-ae7c-0bc4dbc56aaf)
-
-![image](https://github.com/user-attachments/assets/73740dad-2ae6-4b5e-9a07-835b35448576)
-
-Lifesheild AI Platform:
-![image](https://github.com/user-attachments/assets/6f6f701c-aca3-4131-ad42-4d29acd5bdc9)
-![image](https://github.com/user-attachments/assets/897af3ab-69cd-4e00-a60b-02a24812fb75)
-
-
