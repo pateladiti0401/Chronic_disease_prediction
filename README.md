@@ -95,8 +95,8 @@ Explore prediction results and visual trends
 #### 🫁 Heart Disease Form
 ![Lifeshield Heart Form](./screenshots/lifeshield-heart-form.png)
 
-#### 🧪 Kidney Disease Form
-![Lifeshield Kidney Form](./screenshots/lifeshield-kidney-form.png)
+#### 🧪 Diabetes Disease Form
+![Lifeshield Kidney Form](./screenshots/lifeshield-diabetes-form.png)
 
 ---
 
