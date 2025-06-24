@@ -65,22 +65,34 @@ Open the .pbix file provided in the repository
 
 Explore prediction results and visual trends
 
-🧪 Datasets
-🫀 [Heart Disease – Kaggle
-](https://www.kaggle.com/datasets/naveengowda16/logistic-regression-heart-disease-prediction)
+---
+
+## 🧪 Datasets
+
+🫀 [Heart Disease – Kaggle](https://www.kaggle.com/datasets/naveengowda16/logistic-regression-heart-disease-prediction)
+
 🩸 [Diabetes – Kaggle](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
 🧪 [Kidney Disease – UCI](https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease)
 
-🖼️ Screenshots
+---
+
+## 🖼️ Screenshots
+
 Dashboard Example	Lifeshield AI Interface
 
 (Add your screenshots to a screenshots/ folder and update the file paths)
 
-📌 Status
+---
+
+##  📌 Status
+
 ✅ Completed | 🎯 Actively maintained
 
-📫 Contact
+---
+
+## 📫 Contact
+
 Aditi Patel
 📧 pateladiti542@gmail.com
 
